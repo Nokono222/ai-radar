@@ -2,7 +2,7 @@
 
 AI関連情報を毎日自動収集・要約し、トレンドを把握するための個人向けシステム。
 
-**URL**: https://ai-radar.shunniehub.com/
+**URL**: https://ai-radar.nokono.net/
 
 [![CI](https://github.com/Shunnie816/ai-radar/actions/workflows/ci.yml/badge.svg)](https://github.com/Shunnie816/ai-radar/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)

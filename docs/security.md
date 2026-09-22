@@ -89,6 +89,11 @@ gcloud services api-keys update <KEY_NAME> \
 - `localhost`（ローカル開発）
 - Firebase / App Hosting のデフォルトドメイン
 
+2026-09-23 に本番ドメインを `ai-radar.nokono.net` へ移行した（Issue #87）。承認済みドメインへの追加は完了しており、nokono.net からログインポップアップが開けることを確認済み。
+
+- `ai-radar.nokono.net`（本番のカスタムドメイン）
+- `ai-radar.shunniehub.com`（旧ドメイン。2027 年の閉鎖時に承認済みドメインからも削除する）
+
 ### 確認手順
 
 CLI（Identity Toolkit Admin API）は権限エラー（403）で参照できなかったため、コンソールで確認する。
@@ -103,7 +108,7 @@ CLI（Identity Toolkit Admin API）は権限エラー（403）で参照できな
 
 制限を変更したら、サーバー側とブラウザ側の両方を必ず確認する。**片方だけ壊れるケースがある**ため、両方見ないと気づけない。
 
-1. **サーバー側**: `https://ai-radar.shunniehub.com/api/summaries` が 200 で件数を返すこと
+1. **サーバー側**: `https://ai-radar.nokono.net/api/summaries` が 200 で件数を返すこと
    - このエンドポイントは `cache: 'no-store'` なので、キャッシュに邪魔されず必ず Firestore に到達する
    - `/api/articles` は `revalidate: 3600` でキャッシュされるため、確認には向かない
 2. **ブラウザ側**: 記事詳細ページを開き、ブラウザコンソールにエラーが出ないこと（コメント欄がクライアント SDK で Firestore を読む）
