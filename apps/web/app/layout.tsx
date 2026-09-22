@@ -11,7 +11,7 @@ import './globals.css'
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] })
 const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'] })
 
-const SITE_URL = 'https://ai-radar.shunniehub.com'
+const SITE_URL = 'https://ai-radar.nokono.net'
 const SITE_NAME = 'AI Radar'
 const SITE_DESCRIPTION = 'AI関連ニュースを毎朝自動で収集・要約するパーソナルニュースレーダー'
 
