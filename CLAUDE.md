@@ -19,7 +19,7 @@ ai-radar/
 - **DB**: Firebase Firestore
 - **Web UI**: Next.js 16 (App Router)
 - **ホスティング**: Firebase App Hosting
-- **ドメイン**: https://ai-radar.shunniehub.com/
+- **ドメイン**: https://ai-radar.nokono.net/（旧 `ai-radar.shunniehub.com` は 2027 年に閉鎖予定。それまでは併存）
 
 ## 詳細ドキュメント
 
