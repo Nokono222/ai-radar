@@ -41,7 +41,7 @@ Cloud Monitoring のログベースアラートポリシー **`[ai-radar] dailyF
 ローカルに gcloud CLI がない場合は [Cloud Shell](https://shell.cloud.google.com) で実行する。
 
 ```bash
-git clone https://github.com/Shunnie816/ai-radar.git && cd ai-radar
+git clone https://github.com/Nokono222/ai-radar.git && cd ai-radar
 bash scripts/setup-monitoring.sh <通知先メールアドレス>
 ```
 
@@ -114,7 +114,7 @@ ai-radar 単体の試算が月 ~$3〜5 なのに対し、上限は他アプリ�
 **コスト起因の停止も既存のバッチ失敗アラートで検知できる**が、通知を受けた際は Anthropic Console の
 使用量も確認して原因を切り分けること。
 
-$4 の通知が毎月届くようであれば、上限額の引き上げか [Issue #52（コスト削減）](https://github.com/Shunnie816/ai-radar/issues/52) の対応を検討する。
+$4 の通知が毎月届くようであれば、上限額の引き上げか [Issue #52（コスト削減）](https://github.com/Nokono222/ai-radar/issues/52) の対応を検討する。
 
 ### 公開後に増えるのはどちら側か
 

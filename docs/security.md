@@ -73,7 +73,7 @@ gcloud services api-keys update <KEY_NAME> \
 | `users/{uid}` | 全員（コメントの表示名・アイコン表示用） | 本人のみ |
 | `users/{uid}/favorites/{id}` | 本人のみ | 本人のみ |
 
-**レート制限は設けていない**ため、Google アカウントがあれば誰でもコメントを投稿できる。スパム対策は [Issue #82](https://github.com/Shunnie816/ai-radar/issues/82) で検討する。
+**レート制限は設けていない**ため、Google アカウントがあれば誰でもコメントを投稿できる。スパム対策は [Issue #82](https://github.com/Nokono222/ai-radar/issues/82) で検討する。
 
 ---
 
