@@ -4,7 +4,7 @@ AI関連情報を毎日自動収集・要約し、トレンドを把握するた
 
 **URL**: https://ai-radar.nokono.net/
 
-[![CI](https://github.com/Shunnie816/ai-radar/actions/workflows/ci.yml/badge.svg)](https://github.com/Shunnie816/ai-radar/actions/workflows/ci.yml)
+[![CI](https://github.com/Nokono222/ai-radar/actions/workflows/ci.yml/badge.svg)](https://github.com/Nokono222/ai-radar/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ---
@@ -94,7 +94,7 @@ ai-radar/
 ### 手順
 
 ```bash
-git clone https://github.com/Shunnie816/ai-radar.git
+git clone https://github.com/Nokono222/ai-radar.git
 cd ai-radar
 ```
 
@@ -151,6 +151,6 @@ firebase deploy --only firestore
 
 ## ライセンス
 
-[MIT License](LICENSE) © 2026 Shunnie816
+[MIT License](LICENSE) © 2026 Nokono222
 
 本リポジトリは個人利用を目的に作られたものです。取得元の各記事の著作権はそれぞれの発行元に帰属します。
